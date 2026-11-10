@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/cream" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:gravity="center_horizontal" android:padding="24dp">
+    <Space android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:layout_width="@dimen/logo_size" android:layout_height="@dimen/logo_size" android:background="@drawable/bg_logo_ring_light" android:gravity="center" android:text="@string/rm" android:textColor="@color/white" android:textSize="30sp" android:textStyle="bold" android:fontFamily="sans-serif-black"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bienvenido" android:textAppearance="@style/TextAppearance.Raiz.Headline" android:layout_marginTop="16dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ingrese_a_su_cuenta_de_raiz_market" android:textAppearance="@style/TextAppearance.Raiz.Caption" />
+    <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Raiz.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:hint="@string/correo_electronico" ><com.google.android.material.textfield.TextInputEditText android:id="@+id/et_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:maxLines="1" /></com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Raiz.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="@string/contrasena" app:endIconMode="password_toggle" ><com.google.android.material.textfield.TextInputEditText android:id="@+id/et_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:maxLines="1" /></com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@+id/tv_forgot" android:layout_width="wrap_content" android:layout_height="48dp"
+        android:layout_gravity="end" android:gravity="center_vertical"
+        android:text="@string/olvido_su_contrasena" android:textAppearance="@style/TextAppearance.Raiz.Link"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/entrar_como_modo_demostracion" android:textAppearance="@style/TextAppearance.Raiz.Caption" android:layout_gravity="start"/>
+    <com.google.android.material.chip.ChipGroup android:id="@+id/cg_role" android:layout_width="match_parent"
+        android:layout_height="wrap_content" app:singleSelection="true" app:selectionRequired="true">
+        <com.google.android.material.chip.Chip android:id="@+id/chip_buyer" style="@style/Widget.Raiz.Chip"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/comprador"/>
+        <com.google.android.material.chip.Chip android:id="@+id/chip_seller" style="@style/Widget.Raiz.Chip"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vendedor"/>
+        <com.google.android.material.chip.Chip android:id="@+id/chip_admin" style="@style/Widget.Raiz.Chip"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/administrador"/>
+    </com.google.android.material.chip.ChipGroup>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btn_login" style="@style/Widget.Raiz.Button.Primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ingresar" android:layout_marginTop="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/o_continue_con" android:textAppearance="@style/TextAppearance.Raiz.Caption" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btn_google" style="@style/Widget.Raiz.Button.Outlined" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/continuar_con_google" app:icon="@drawable/ic_google" />
+    <LinearLayout android:id="@+id/ll_fingerprint" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:gravity="center_horizontal" android:orientation="vertical"
+        android:padding="8dp" android:clickable="true" android:focusable="true">
+        <ImageView android:layout_width="56dp" android:layout_height="56dp" android:src="@drawable/ic_fingerprint"
+            android:contentDescription="@string/ingresar_con_huella"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ingresar_con_huella" android:textAppearance="@style/TextAppearance.Raiz.Link" />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_register" android:layout_width="wrap_content" android:layout_height="48dp"
+        android:gravity="center" android:text="@string/no_tiene_cuenta_registrese"
+        android:textAppearance="@style/TextAppearance.Raiz.Link"/>
+</LinearLayout></ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" style="@style/Widget.Raiz.Card"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp"
+    android:clickable="true" android:focusable="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+    <ImageView android:layout_width="match_parent" android:layout_height="96dp" android:background="@drawable/bg_image_placeholder"
+        android:contentDescription="@string/foto_del_producto" android:padding="28dp" android:src="@drawable/ic_image" app:tint="#C9B793"/>
+    <TextView android:id="@+id/tv_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:ellipsize="end" android:maxLines="1" android:text="@string/cafe_huila_500g"
+        android:textAppearance="@style/TextAppearance.Raiz.Title"/>
+    <TextView android:id="@+id/tv_seller" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:ellipsize="end" android:maxLines="1" android:text="@string/finca_la_esperanza" android:textAppearance="@style/TextAppearance.Raiz.Caption"/>
+    <TextView android:id="@+id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:text="@string/s_32_000" android:textAppearance="@style/TextAppearance.Raiz.Price"/>
+</LinearLayout></com.google.android.material.card.MaterialCardView>

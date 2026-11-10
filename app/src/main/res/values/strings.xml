@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inicio" formatted="false">Inicio</string>
+    <string name="buscar" formatted="false">Buscar</string>
+    <string name="carrito" formatted="false">Carrito</string>
+    <string name="pedidos" formatted="false">Pedidos</string>
+    <string name="perfil" formatted="false">Perfil</string>
+    <string name="panel" formatted="false">Panel</string>
+    <string name="productos" formatted="false">Productos</string>
+    <string name="panel_de_administracion" formatted="false">Panel de administración</string>
+    <string name="usuarios" formatted="false">Usuarios</string>
+    <string name="moderacion_de_productos" formatted="false">Moderación de productos</string>
+    <string name="reportes_de_ventas" formatted="false">Reportes de ventas</string>
+    <string name="cerrar_sesion" formatted="false">Cerrar sesión</string>
+    <string name="rm" formatted="false">RM</string>
+    <string name="raiz_market" formatted="false">Raíz Market</string>
+    <string name="lo_nuestro_a_un_toque" formatted="false">Lo nuestro, a un toque</string>
+    <string name="validando_sesion" formatted="false">Validando sesión...</string>
+    <string name="bienvenido" formatted="false">Bienvenido</string>
+    <string name="ingrese_a_su_cuenta_de_raiz_market" formatted="false">Ingrese a su cuenta de Raíz Market</string>
+    <string name="correo_electronico" formatted="false">Correo electrónico</string>
+    <string name="contrasena" formatted="false">Contraseña</string>
+    <string name="olvido_su_contrasena" formatted="false">¿Olvidó su contraseña?</string>
+    <string name="entrar_como_modo_demostracion" formatted="false">Entrar como (modo demostración)</string>
+    <string name="comprador" formatted="false">Comprador</string>
+    <string name="vendedor" formatted="false">Vendedor</string>
+    <string name="administrador" formatted="false">Administrador</string>
+    <string name="ingresar" formatted="false">Ingresar</string>
+    <string name="o_continue_con" formatted="false">o continúe con</string>
+    <string name="continuar_con_google" formatted="false">Continuar con Google</string>
+    <string name="ingresar_con_huella" formatted="false">Ingresar con huella</string>
+    <string name="no_tiene_cuenta_registrese" formatted="false">¿No tiene cuenta? Regístrese</string>
+    <string name="crear_cuenta" formatted="false">Crear cuenta</string>
+    <string name="nombre_completo" formatted="false">Nombre completo</string>
+    <string name="contrasena_8_caracteres_mayuscula" formatted="false">Contraseña (8+ caracteres, mayúscula y número)</string>
+    <string name="confirmar_contrasena" formatted="false">Confirmar contraseña</string>
+    <string name="quiero_registrarme_como" formatted="false">Quiero registrarme como</string>
+    <string name="acepto_terminos_y_condiciones" formatted="false">Acepto términos y condiciones</string>
+    <string name="autorizo_el_tratamiento_de_mis_dat" formatted="false">Autorizo el tratamiento de mis datos (Ley 1581 de 2012)</string>
+    <string name="registrarme" formatted="false">Registrarme</string>
+    <string name="recuperar_contrasena" formatted="false">Recuperar contraseña</string>
+    <string name="le_enviaremos_un_enlace_de_un_solo" formatted="false">Le enviaremos un enlace de un solo uso, válido por 1 hora, para crear una nueva contraseña.</string>
+    <string name="enviar_enlace" formatted="false">Enviar enlace</string>
+    <string name="hola_laura" formatted="false">Hola, Laura</string>
+    <string name="bogota_que_le_llevamos_hoy" formatted="false">Bogotá · ¿Qué le llevamos hoy?</string>
+    <string name="buscar_cafe_panela_artesanias" formatted="false">Buscar café, panela, artesanías</string>
+    <string name="todo" formatted="false">Todo</string>
+    <string name="cafe" formatted="false">Café</string>
+    <string name="artesanias" formatted="false">Artesanías</string>
+    <string name="miel_y_panela" formatted="false">Miel y panela</string>
+    <string name="textiles" formatted="false">Textiles</string>
+    <string name="cosecha_2026" formatted="false">Cosecha 2026</string>
+    <string name="cafe_de_origen_con_envio_gratis_es" formatted="false">Café de origen con envío gratis esta semana</string>
+    <string name="destacados" formatted="false">Destacados</string>
+    <string name="ver_todo" formatted="false">Ver todo</string>
+    <string name="foto_del_producto" formatted="false">Foto del producto</string>
+    <string name="cafe_huila_500g" formatted="false">Café Huila 500g</string>
+    <string name="finca_la_esperanza" formatted="false">Finca La Esperanza</string>
+    <string name="s_32_000" formatted="false">$32.000</string>
+    <string name="s_1_2_km" formatted="false">1,2 km</string>
+    <string name="cerca_de_ti" formatted="false">Cerca de ti</string>
+    <string name="distancia" formatted="false">Distancia</string>
+    <string name="precio" formatted="false">Precio</string>
+    <string name="categoria" formatted="false">Categoría</string>
+    <string name="volver" formatted="false">Volver</string>
+    <string name="iva_incluido" formatted="false">IVA incluido</string>
+    <string name="s_32_000_cop" formatted="false">$32.000 COP</string>
+    <string name="vendido_por_finca_la_esperanza" formatted="false">Vendido por Finca La Esperanza</string>
+    <string name="cafe_de_especialidad_tostion_media" formatted="false">Café de especialidad, tostión media, notas a panela y cacao. Cultivado en el Huila por familias caficultoras.</string>
+    <string name="stock_24_unidades" formatted="false">Stock: 24 unidades</string>
+    <string name="retracto_5_dias_habiles" formatted="false">Retracto: 5 días hábiles</string>
+    <string name="txt" formatted="false">-</string>
+    <string name="s_1" formatted="false">1</string>
+    <string name="txt_2" formatted="false">+</string>
+    <string name="agregar_al_carrito" formatted="false">Agregar al carrito</string>
+    <string name="quitar" formatted="false">Quitar</string>
+    <string name="mi_carrito" formatted="false">Mi carrito</string>
+    <string name="su_carrito_esta_vacio_explore_el_c" formatted="false">Su carrito está vacío. Explore el catálogo y agregue productos.</string>
+    <string name="subtotal" formatted="false">Subtotal</string>
+    <string name="s_0" formatted="false">$0</string>
+    <string name="iva" formatted="false">IVA</string>
+    <string name="envio" formatted="false">Envío</string>
+    <string name="total" formatted="false">Total</string>
+    <string name="ir_a_pagar" formatted="false">Ir a pagar</string>
+    <string name="vaciar_carrito" formatted="false">Vaciar carrito</string>
+    <string name="pago_seguro" formatted="false">Pago seguro</string>
+    <string name="s_1_entrega" formatted="false">1. Entrega</string>
+    <string name="ubicacion_de_entrega" formatted="false">Ubicación de entrega</string>
+    <string name="mapa_de_entrega_google_maps_en_la" formatted="false">Mapa de entrega (Google Maps en la fase de integración)</string>
+    <string name="direccion_de_entrega" formatted="false">Dirección de entrega</string>
+    <string name="indicaciones_torre_apto_porteria" formatted="false">Indicaciones (torre, apto, portería)</string>
+    <string name="estandar_2_4_dias_8_000" formatted="false">Estándar (2-4 días) $8.000</string>
+    <string name="express_24_h_15_000" formatted="false">Express (24 h) $15.000</string>
+    <string name="s_2_metodo_de_pago" formatted="false">2. Método de pago</string>
+    <string name="tarjeta_credito_debito" formatted="false">Tarjeta crédito/débito</string>
+    <string name="pse" formatted="false">PSE</string>
+    <string name="nequi_billetera" formatted="false">Nequi / billetera</string>
+    <string name="numero_de_tarjeta" formatted="false">Número de tarjeta</string>
+    <string name="vence_mm_aa" formatted="false">Vence (MM/AA)</string>
+    <string name="cvv" formatted="false">CVV</string>
+    <string name="procesado_por_la_api_de_pagos_toke" formatted="false">Procesado por la API de pagos (tokenizado · TLS)</string>
+    <string name="pagar" formatted="false">Pagar</string>
+    <string name="mis_pedidos" formatted="false">Mis pedidos</string>
+    <string name="todos" formatted="false">Todos</string>
+    <string name="en_curso" formatted="false">En curso</string>
+    <string name="entregados" formatted="false">Entregados</string>
+    <string name="solicitar_retracto" formatted="false">Solicitar retracto</string>
+    <string name="descargar_factura" formatted="false">Descargar factura</string>
+    <string name="pedido_1042" formatted="false">Pedido #1042</string>
+    <string name="s_13_oct_3_items" formatted="false">13 oct · 3 ítems</string>
+    <string name="s_103_800" formatted="false">$103.800</string>
+    <string name="en_camino" formatted="false">En camino</string>
+    <string name="foto_de_perfil" formatted="false">Foto de perfil</string>
+    <string name="cambiar_foto_camara_o_galeria" formatted="false">Cambiar foto (cámara o galería)</string>
+    <string name="mi_perfil" formatted="false">Mi perfil</string>
+    <string name="nombre" formatted="false">Nombre</string>
+    <string name="telefono" formatted="false">Teléfono</string>
+    <string name="direccion_principal" formatted="false">Dirección principal</string>
+    <string name="guardar_cambios" formatted="false">Guardar cambios</string>
+    <string name="gestionar_consentimientos" formatted="false">Gestionar consentimientos</string>
+    <string name="eliminar_mi_cuenta" formatted="false">Eliminar mi cuenta</string>
+    <string name="panel_del_vendedor" formatted="false">Panel del vendedor</string>
+    <string name="ventas_hoy" formatted="false">Ventas hoy</string>
+    <string name="s_420_000" formatted="false">$420.000</string>
+    <string name="pedidos_nuevos" formatted="false">Pedidos nuevos</string>
+    <string name="s_5" formatted="false">5</string>
+    <string name="productos_activos" formatted="false">Productos activos</string>
+    <string name="s_18" formatted="false">18</string>
+    <string name="stock_bajo" formatted="false">Stock bajo</string>
+    <string name="s_3" formatted="false">3</string>
+    <string name="ventas_de_la_semana" formatted="false">Ventas de la semana</string>
+    <string name="saldo_disponible" formatted="false">Saldo disponible</string>
+    <string name="s_1_280_000" formatted="false">$1.280.000</string>
+    <string name="retirar" formatted="false">Retirar</string>
+    <string name="pedidos_recientes" formatted="false">Pedidos recientes</string>
+    <string name="s_1042_laura_g_103_800_pagado" formatted="false">#1042 · Laura G. · $103.800 · Pagado</string>
+    <string name="s_1041_carlos_p_32_000_nuevo" formatted="false">#1041 · Carlos P. · $32.000 · Nuevo</string>
+    <string name="stock_24" formatted="false">Stock 24</string>
+    <string name="aprobado" formatted="false">Aprobado</string>
+    <string name="editar" formatted="false">Editar</string>
+    <string name="eliminar" formatted="false">Eliminar</string>
+    <string name="mis_productos" formatted="false">Mis productos</string>
+    <string name="agregar" formatted="false">Agregar</string>
+    <string name="nuevo_producto" formatted="false">Nuevo producto</string>
+    <string name="camara" formatted="false">Cámara</string>
+    <string name="galeria" formatted="false">Galería</string>
+    <string name="nombre_del_producto" formatted="false">Nombre del producto</string>
+    <string name="descripcion" formatted="false">Descripción</string>
+    <string name="precio_cop" formatted="false">Precio (COP)</string>
+    <string name="stock" formatted="false">Stock</string>
+    <string name="usar_mi_ubicacion_de_despacho" formatted="false">Usar mi ubicación de despacho</string>
+    <string name="ubicacion_sin_registrar" formatted="false">Ubicación sin registrar</string>
+    <string name="publicar_producto" formatted="false">Publicar producto</string>
+    <string name="pedidos_recibidos" formatted="false">Pedidos recibidos</string>
+    <string name="nuevos" formatted="false">Nuevos</string>
+    <string name="en_proceso" formatted="false">En proceso</string>
+    <string name="enviados" formatted="false">Enviados</string>
+    <string name="s_1042_laura_g" formatted="false">#1042 · Laura G.</string>
+    <string name="bogota_3_items" formatted="false">Bogotá · 3 ítems</string>
+    <string name="nuevo" formatted="false">Nuevo</string>
+    <string name="marcar_como_enviado" formatted="false">Marcar como enviado</string>
+    <string name="perfil_de_la_tienda" formatted="false">Perfil de la tienda</string>
+    <string name="nombre_de_la_tienda" formatted="false">Nombre de la tienda</string>
+    <string name="nit_documento" formatted="false">NIT / Documento</string>
+    <string name="cuenta_de_cobro" formatted="false">Cuenta de cobro</string>
+    <string name="admin_raizmarket_co" formatted="false">admin@raizmarket.co</string>
+    <string name="s_1_248" formatted="false">1.248</string>
+    <string name="vendedores" formatted="false">Vendedores</string>
+    <string name="s_86" formatted="false">86</string>
+    <string name="ventas_del_mes" formatted="false">Ventas del mes</string>
+    <string name="s_48_2_m" formatted="false">$48,2 M</string>
+    <string name="por_moderar" formatted="false">Por moderar</string>
+    <string name="s_12" formatted="false">12</string>
+    <string name="transacciones_diarias" formatted="false">Transacciones diarias</string>
+    <string name="alertas" formatted="false">Alertas</string>
+    <string name="s_3_pagos_rechazados_revisar_pasarel" formatted="false">3 pagos rechazados · revisar pasarela</string>
+    <string name="s_12_productos_pendientes_de_moderac" formatted="false">12 productos pendientes de moderación</string>
+    <string name="l" formatted="false">L</string>
+    <string name="laura_gomez" formatted="false">Laura Gómez</string>
+    <string name="laura_correo_com_comprador" formatted="false">laura@correo.com · Comprador</string>
+    <string name="activo" formatted="false">Activo</string>
+    <string name="compradores" formatted="false">Compradores</string>
+    <string name="admins" formatted="false">Admins</string>
+    <string name="nuevo_usuario" formatted="false">Nuevo usuario</string>
+    <string name="rol" formatted="false">Rol</string>
+    <string name="cuenta_activa" formatted="false">Cuenta activa</string>
+    <string name="suspender_usuario" formatted="false">Suspender usuario</string>
+    <string name="eliminar_usuario" formatted="false">Eliminar usuario</string>
+    <string name="mochila_wayuu" formatted="false">Mochila wayuu</string>
+    <string name="finca_wayuu_sas_85_000" formatted="false">Finca Wayuu SAS · $85.000</string>
+    <string name="pendiente" formatted="false">Pendiente</string>
+    <string name="aprobar" formatted="false">Aprobar</string>
+    <string name="rechazar" formatted="false">Rechazar</string>
+    <string name="pendientes" formatted="false">Pendientes</string>
+    <string name="aprobados" formatted="false">Aprobados</string>
+    <string name="rechazados" formatted="false">Rechazados</string>
+    <string name="rm_1042" formatted="false">RM-1042</string>
+    <string name="tarjeta_13_oct" formatted="false">Tarjeta · 13 oct</string>
+    <string name="ventas_por_categoria" formatted="false">Ventas por categoría</string>
+    <string name="comision_de_la_plataforma" formatted="false">Comisión de la plataforma</string>
+    <string name="s_8_por_venta_aprobada" formatted="false">8% por venta aprobada</string>
+    <string name="transacciones_recientes" formatted="false">Transacciones recientes</string>
+    <string name="exportar_csv" formatted="false">Exportar CSV</string>
+    <string name="exportar_pdf" formatted="false">Exportar PDF</string>
+    <string name="ingrese_un_correo_valido" formatted="false">Ingrese un correo válido</string>
+    <string name="ingrese_su_contrasena" formatted="false">Ingrese su contraseña</string>
+    <string name="google_sign_in_se_conectara_con_fi" formatted="false">Google Sign-In se conectará con Firebase en la fase de integración</string>
+    <string name="este_dispositivo_no_tiene_una_huel" formatted="false">Este dispositivo no tiene una huella registrada</string>
+    <string name="verificacion_biometrica" formatted="false">Verificación biométrica</string>
+    <string name="toque_el_sensor_de_huella" formatted="false">Toque el sensor de huella</string>
+    <string name="usar_contrasena" formatted="false">Usar contraseña</string>
+    <string name="ingrese_su_nombre" formatted="false">Ingrese su nombre</string>
+    <string name="minimo_8_caracteres_una_mayuscula" formatted="false">Mínimo 8 caracteres, una mayúscula y un número</string>
+    <string name="las_contrasenas_no_coinciden" formatted="false">Las contraseñas no coinciden</string>
+    <string name="debe_aceptar_los_terminos_y_la_aut" formatted="false">Debe aceptar los términos y la autorización de datos</string>
+    <string name="cuenta_creada_verifique_su_correo" formatted="false">Cuenta creada. Verifique su correo para continuar</string>
+    <string name="si_el_correo_esta_registrado_recib" formatted="false">Si el correo está registrado, recibirá un enlace en breve</string>
+    <string name="no_hay_mas_unidades_disponibles" formatted="false">No hay más unidades disponibles</string>
+    <string name="desea_quitar_todos_los_productos" formatted="false">¿Desea quitar todos los productos?</string>
+    <string name="agregue_productos_antes_de_pagar" formatted="false">Agregue productos antes de pagar</string>
+    <string name="solicitud_de_retracto_registrada_5" formatted="false">Solicitud de retracto registrada (5 días hábiles)</string>
+    <string name="la_factura_electronica_se_enviara" formatted="false">La factura electrónica se enviará a su correo</string>
+    <string name="cambios_guardados" formatted="false">Cambios guardados</string>
+    <string name="consentimientos" formatted="false">Consentimientos</string>
+    <string name="tratamiento_de_datos" formatted="false">Tratamiento de datos</string>
+    <string name="notificaciones_y_marketing" formatted="false">Notificaciones y marketing</string>
+    <string name="ubicacion" formatted="false">Ubicación</string>
+    <string name="guardar" formatted="false">Guardar</string>
+    <string name="consentimientos_actualizados" formatted="false">Consentimientos actualizados</string>
+    <string name="eliminar_cuenta" formatted="false">Eliminar cuenta</string>
+    <string name="esta_accion_solicita_la_supresion" formatted="false">Esta acción solicita la supresión de sus datos. ¿Continuar?</string>
+    <string name="confirmacion_final" formatted="false">Confirmación final</string>
+    <string name="seguro_que_desea_eliminar_su_cuent" formatted="false">¿Seguro que desea eliminar su cuenta?</string>
+    <string name="vendido_por" formatted="false">Vendido por</string>
+    <string name="producto_agregado_al_carrito" formatted="false">Producto agregado al carrito</string>
+    <string name="ingrese_la_direccion_de_entrega" formatted="false">Ingrese la dirección de entrega</string>
+    <string name="numero_de_tarjeta_invalido" formatted="false">Número de tarjeta inválido</string>
+    <string name="fecha_invalida" formatted="false">Fecha inválida</string>
+    <string name="cvv_invalido" formatted="false">CVV inválido</string>
+    <string name="pago_aprobado" formatted="false">Pago aprobado</string>
+    <string name="recibira_el_comprobante_y_la_factu" formatted="false">Recibirá el comprobante y la factura electrónica en su correo.</string>
+    <string name="ver_mis_pedidos" formatted="false">Ver mis pedidos</string>
+    <string name="solicitud_de_retiro_enviada" formatted="false">Solicitud de retiro enviada</string>
+    <string name="eliminar_producto" formatted="false">Eliminar producto</string>
+    <string name="desea_eliminar" formatted="false">¿Desea eliminar</string>
+    <string name="pedido_marcado_como_enviado" formatted="false">Pedido marcado como enviado</string>
+    <string name="editar_producto" formatted="false">Editar producto</string>
+    <string name="ubicacion_de_despacho_registrada" formatted="false">Ubicación de despacho registrada</string>
+    <string name="ingrese_un_nombre_minimo_3_letras" formatted="false">Ingrese un nombre (mínimo 3 letras)</string>
+    <string name="precio_invalido" formatted="false">Precio inválido</string>
+    <string name="stock_invalido" formatted="false">Stock inválido</string>
+    <string name="producto_enviado_a_moderacion" formatted="false">Producto enviado a moderación</string>
+    <string name="desea_eliminar_a" formatted="false">¿Desea eliminar a</string>
+    <string name="producto_aprobado_y_publicado" formatted="false">Producto aprobado y publicado</string>
+    <string name="motivo_obligatorio" formatted="false">Motivo (obligatorio)</string>
+    <string name="rechazar_con_motivo" formatted="false">Rechazar con motivo</string>
+    <string name="debe_escribir_un_motivo" formatted="false">Debe escribir un motivo</string>
+    <string name="producto_rechazado_se_notifico_al" formatted="false">Producto rechazado. Se notificó al vendedor</string>
+    <string name="reporte_csv_generado_sin_datos_de" formatted="false">Reporte CSV generado (sin datos de pago)</string>
+    <string name="reporte_pdf_generado_sin_datos_de" formatted="false">Reporte PDF generado (sin datos de pago)</string>
+    <string name="editar_usuario" formatted="false">Editar usuario</string>
+    <string name="ingrese_el_nombre" formatted="false">Ingrese el nombre</string>
+    <string name="ese_correo_ya_esta_registrado" formatted="false">Ese correo ya está registrado</string>
+    <string name="usuario_guardado" formatted="false">Usuario guardado</string>
+    <string name="usuario_suspendido" formatted="false">Usuario suspendido</string>
+    <string name="los_datos_personales_se_anonimizar" formatted="false">Los datos personales se anonimizarán. ¿Continuar?</string>
+    <string name="app_name" formatted="false">Raíz Market</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_splash" android:gravity="center" android:orientation="vertical" android:padding="32dp">
+    <TextView android:layout_width="@dimen/logo_size" android:layout_height="@dimen/logo_size" android:background="@drawable/bg_logo_ring" android:gravity="center" android:text="@string/rm" android:textColor="@color/white" android:textSize="30sp" android:textStyle="bold" android:fontFamily="sans-serif-black"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="@string/raiz_market" android:textColor="@color/white" android:textSize="30sp" android:fontFamily="sans-serif-black"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+        android:text="@string/lo_nuestro_a_un_toque" android:textColor="#CCFFFFFF" android:textSize="14sp"/>
+    <ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="160dp"
+        android:layout_height="wrap_content" android:layout_marginTop="48dp" android:indeterminate="true"
+        android:indeterminateTint="@color/raiz_amber"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+        android:text="@string/validando_sesion" android:textColor="#B3FFFFFF" android:textSize="12sp"/>
+</LinearLayout>

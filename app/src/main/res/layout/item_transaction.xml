@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical"
+    android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp">
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tv_ref" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rm_1042" android:textAppearance="@style/TextAppearance.Raiz.Title" />
+        <TextView android:id="@+id/tv_meta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tarjeta_13_oct" android:textAppearance="@style/TextAppearance.Raiz.Caption" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="end" android:orientation="vertical">
+        <TextView android:id="@+id/tv_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_103_800" android:textAppearance="@style/TextAppearance.Raiz.Price" />
+        <TextView android:id="@+id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_badge_green" android:text="@string/aprobado" android:paddingStart="10dp" android:paddingEnd="10dp" android:paddingTop="3dp" android:paddingBottom="3dp" android:textAppearance="@style/TextAppearance.Raiz.Badge" android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</LinearLayout>

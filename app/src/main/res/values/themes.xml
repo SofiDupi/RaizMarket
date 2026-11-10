@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RaizMarket" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/raiz_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/raiz_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/raiz_green_dark</item>
+        <item name="colorSecondary">@color/raiz_amber</item>
+        <item name="colorOnSecondary">@color/ink</item>
+        <item name="colorSecondaryContainer">@color/raiz_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/raiz_green</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.RaizMarket.Seller">
+        <item name="colorPrimary">@color/raiz_terracota</item>
+        <item name="colorPrimaryContainer">@color/raiz_terracota_light</item>
+        <item name="colorOnPrimaryContainer">@color/raiz_terracota</item>
+        <item name="colorSecondaryContainer">@color/raiz_terracota_light</item>
+        <item name="colorOnSecondaryContainer">@color/raiz_terracota</item>
+    </style>
+    <style name="Theme.RaizMarket.Admin">
+        <item name="colorPrimary">@color/raiz_blue</item>
+        <item name="colorPrimaryContainer">@color/raiz_blue_light</item>
+        <item name="colorOnPrimaryContainer">@color/raiz_blue</item>
+        <item name="colorSecondaryContainer">@color/raiz_blue_light</item>
+        <item name="colorOnSecondaryContainer">@color/raiz_blue</item>
+    </style>
+</resources>

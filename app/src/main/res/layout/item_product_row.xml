@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" style="@style/Widget.Raiz.Card"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"
+    android:clickable="true" android:focusable="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical"
+    android:orientation="horizontal" android:padding="12dp">
+    <ImageView android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_image_placeholder"
+        android:contentDescription="@string/foto_del_producto" android:padding="20dp" android:src="@drawable/ic_image" app:tint="#C9B793"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cafe_huila_500g" android:textAppearance="@style/TextAppearance.Raiz.Title" />
+        <TextView android:id="@+id/tv_seller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/finca_la_esperanza" android:textAppearance="@style/TextAppearance.Raiz.Caption" />
+        <TextView android:id="@+id/tv_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_1_2_km" android:textAppearance="@style/TextAppearance.Raiz.Caption" android:drawableStart="@drawable/ic_location" android:drawableTint="@color/raiz_terracota" android:drawablePadding="4dp"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_32_000" android:textAppearance="@style/TextAppearance.Raiz.Price" />
+</LinearLayout></com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <queries>
+        <intent><action android:name="android.media.action.IMAGE_CAPTURE" /></intent>
+    </queries>
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaizMarket">
+        <activity android:name=".SplashActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" android:exported="false"  />
+        <activity android:name=".RegisterActivity" android:exported="false"  />
+        <activity android:name=".ForgotPasswordActivity" android:exported="false"  />
+        <activity android:name=".BuyerActivity" android:exported="false"  />
+        <activity android:name=".ProductDetailActivity" android:exported="false"  />
+        <activity android:name=".CheckoutActivity" android:exported="false"  />
+        <activity android:name=".SellerActivity" android:exported="false" android:theme="@style/Theme.RaizMarket.Seller" />
+        <activity android:name=".ProductFormActivity" android:exported="false" android:theme="@style/Theme.RaizMarket.Seller" />
+        <activity android:name=".AdminActivity" android:exported="false" android:theme="@style/Theme.RaizMarket.Admin" />
+        <activity android:name=".UserFormActivity" android:exported="false" android:theme="@style/Theme.RaizMarket.Admin" />
+    </application>
+</manifest>

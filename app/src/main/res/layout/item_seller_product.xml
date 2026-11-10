@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" style="@style/Widget.Raiz.Card"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical"
+    android:orientation="horizontal" android:padding="12dp">
+    <ImageView android:layout_width="60dp" android:layout_height="60dp" android:background="@drawable/bg_image_placeholder"
+        android:contentDescription="@string/foto_del_producto" android:padding="16dp" android:src="@drawable/ic_image" app:tint="#C9B793"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cafe_huila_500g" android:textAppearance="@style/TextAppearance.Raiz.Title" />
+        <TextView android:id="@+id/tv_stock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stock_24" android:textAppearance="@style/TextAppearance.Raiz.Caption" />
+        <TextView android:id="@+id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_32_000" android:textAppearance="@style/TextAppearance.Raiz.Price" />
+        <TextView android:id="@+id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_badge_green" android:text="@string/aprobado" android:paddingStart="10dp" android:paddingEnd="10dp" android:paddingTop="3dp" android:paddingBottom="3dp" android:textAppearance="@style/TextAppearance.Raiz.Badge" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/btn_edit" android:layout_width="48dp" android:layout_height="48dp" android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/editar" android:src="@drawable/ic_edit" app:tint="?attr/colorPrimary"/>
+    <ImageButton android:id="@+id/btn_delete" android:layout_width="48dp" android:layout_height="48dp" android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/eliminar" android:src="@drawable/ic_delete" app:tint="@color/danger"/>
+</LinearLayout></com.google.android.material.card.MaterialCardView>
