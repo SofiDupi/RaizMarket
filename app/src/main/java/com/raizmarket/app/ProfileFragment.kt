@@ -1,6 +1,6 @@
 package com.raizmarket.app
 
-
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -8,15 +8,31 @@ import android.widget.ImageView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.firebase.auth.FirebaseAuth
 
-/** Perfil compartido por comprador y vendedor: foto (camara/galeria), datos, consentimientos y salida. */
+/**
+ * Perfil compartido por comprador y vendedor:
+ * foto, datos, consentimientos y cierre de sesión.
+ */
 open class ProfileFragment(layout: Int) : Fragment(layout) {
-    private val takePhoto = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { bmp ->
-        bmp?.let { showAvatar { iv -> iv.setImageBitmap(it) } }
-    }
-    private val pickPhoto = registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
-        uri?.let { showAvatar { iv -> iv.setImageURI(it) } }
-    }
+
+    private val takePhoto =
+        registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { bmp ->
+            bmp?.let {
+                showAvatar { iv ->
+                    iv.setImageBitmap(it)
+                }
+            }
+        }
+
+    private val pickPhoto =
+        registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
+            uri?.let {
+                showAvatar { iv ->
+                    iv.setImageURI(it)
+                }
+            }
+        }
 
     private fun showAvatar(set: (ImageView) -> Unit) {
         val iv = view?.findViewById<ImageView>(R.id.iv_avatar) ?: return
@@ -26,6 +42,8 @@ open class ProfileFragment(layout: Int) : Fragment(layout) {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
         if (Session.role == Role.SELLER) {
             view.setField(R.id.et_name, "Finca La Esperanza")
             view.setField(R.id.et_desc, "Café de altura del Huila")
@@ -36,26 +54,87 @@ open class ProfileFragment(layout: Int) : Fragment(layout) {
             view.setField(R.id.et_phone, "300 123 4567")
             view.setField(R.id.et_address, "Cra 15 # 85-20, Bogotá")
         }
+
         val ctx = requireContext()
+
+        // Seleccionar foto de perfil.
         view.findViewById<Button>(R.id.btn_photo).setOnClickListener {
-            MaterialAlertDialogBuilder(ctx).setTitle(getString(R.string.foto_de_perfil))
-                .setItems(arrayOf(getString(R.string.camara), getString(R.string.galeria))) { _, which ->
-                    if (which == 0) takePhoto.launch(null) else pickPhoto.launch("image/*")
-                }.show()
+            MaterialAlertDialogBuilder(ctx)
+                .setTitle(getString(R.string.foto_de_perfil))
+                .setItems(
+                    arrayOf(
+                        getString(R.string.camara),
+                        getString(R.string.galeria)
+                    )
+                ) { _, which ->
+                    if (which == 0) {
+                        takePhoto.launch(null)
+                    } else {
+                        pickPhoto.launch("image/*")
+                    }
+                }
+                .show()
         }
-        view.findViewById<Button>(R.id.btn_save).setOnClickListener { ctx.toast(getString(R.string.cambios_guardados)) }
-        view.findViewById<Button>(R.id.btn_logout).setOnClickListener { ctx.logout() }
-        (view.findViewById<View>(R.id.btn_consents) as? Button)?.setOnClickListener {
-            MaterialAlertDialogBuilder(ctx).setTitle(getString(R.string.consentimientos))
-                .setMultiChoiceItems(arrayOf(getString(R.string.tratamiento_de_datos), getString(R.string.notificaciones_y_marketing), getString(R.string.ubicacion)),
-                    booleanArrayOf(true, true, false), null)
-                .setPositiveButton(getString(R.string.guardar)) { _, _ -> ctx.toast(getString(R.string.consentimientos_actualizados)) }
-                .setNegativeButton(android.R.string.cancel, null).show()
+
+        // Guardar cambios del perfil.
+        view.findViewById<Button>(R.id.btn_save).setOnClickListener {
+            ctx.toast(getString(R.string.cambios_guardados))
         }
-        (view.findViewById<View>(R.id.btn_delete) as? Button)?.setOnClickListener {
-            ctx.confirm(getString(R.string.eliminar_cuenta), getString(R.string.esta_accion_solicita_la_supresion)) {
-                ctx.confirm(getString(R.string.confirmacion_final), getString(R.string.seguro_que_desea_eliminar_su_cuent)) { ctx.logout() }
+
+        // Cerrar sesión de Firebase.
+        view.findViewById<Button>(R.id.btn_logout).setOnClickListener {
+
+            FirebaseAuth.getInstance().signOut()
+
+            val loginIntent = Intent(ctx, LoginActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or
+                        Intent.FLAG_ACTIVITY_CLEAR_TASK
             }
+
+            startActivity(loginIntent)
         }
+
+        // Administrar consentimientos.
+        (view.findViewById<View>(R.id.btn_consents) as? Button)
+            ?.setOnClickListener {
+
+                MaterialAlertDialogBuilder(ctx)
+                    .setTitle(getString(R.string.consentimientos))
+                    .setMultiChoiceItems(
+                        arrayOf(
+                            getString(R.string.tratamiento_de_datos),
+                            getString(R.string.notificaciones_y_marketing),
+                            getString(R.string.ubicacion)
+                        ),
+                        booleanArrayOf(true, true, false),
+                        null
+                    )
+                    .setPositiveButton(getString(R.string.guardar)) { _, _ ->
+                        ctx.toast(
+                            getString(R.string.consentimientos_actualizados)
+                        )
+                    }
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .show()
+            }
+
+        // Solicitar eliminación de cuenta.
+        (view.findViewById<View>(R.id.btn_delete) as? Button)
+            ?.setOnClickListener {
+
+                ctx.confirm(
+                    getString(R.string.eliminar_cuenta),
+                    getString(R.string.esta_accion_solicita_la_supresion)
+                ) {
+                    ctx.confirm(
+                        getString(R.string.confirmacion_final),
+                        getString(R.string.seguro_que_desea_eliminar_su_cuent)
+                    ) {
+                        ctx.toast(
+                            "La solicitud de eliminación debe gestionarse con soporte."
+                        )
+                    }
+                }
+            }
     }
 }
